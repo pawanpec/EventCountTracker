@@ -1,0 +1,38 @@
+{
+  "name": "event-count-tracker",
+  "version": "1.0.0",
+  "description": "This module will be useful for tracking the any event count in Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawanpec/EventCountTracker.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pawanpec/9de/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/pawanpec/EventCountTracker/issues"
+  },
+  "homepage": "https://github.com/pawanpec/9de#readme",
+  "keywords": [
+    "redis",
+    "event",
+    "tracker",
+    "page",
+    "views"
+  ],
+  "author": "Pawan Kumar Goyal <pawanpec@gmail.com> (http://schoolspedia.com)",
+  "dependencies": {
+    "redis": "^2.6.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
