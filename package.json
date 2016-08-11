@@ -1,6 +1,6 @@
 {
   "name": "event-count-tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module will be useful for tracking the any event count in Redis.",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/pawanpec/EventCountTracker/issues"
   },
-  "homepage": "https://github.com/pawanpec/9de#readme",
+  "homepage": "https://github.com/pawanpec/EventCountTracker#readme",
   "keywords": [
     "redis",
     "event",
@@ -29,6 +29,7 @@
   ],
   "author": "Pawan Kumar Goyal <pawanpec@gmail.com> (http://schoolspedia.com)",
   "dependencies": {
+    "async": "^2.0.1",
     "redis": "^2.6.2"
   },
   "devDependencies": {
